@@ -1,3 +1,3 @@
 # FreeCAD-tree-extract
 
-readme
+Code to extract the tree structure of a STEP file
