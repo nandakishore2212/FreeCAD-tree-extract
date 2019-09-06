@@ -73,7 +73,7 @@ required2 = ['Steuergerte_CellCelector', 'Inkubator_Liconic_mit_Transfer_oa3366'
 #ImportGui.insert(u"/home/nandakishore/Documents/729-00-00-000_StemCellFactory_19_11_14_stp.stp","Unnamed")
 dc = App.ActiveDocument                          #Holds a reference to the current document. It is assumed the STP file is already imported
                                                  #Else, an import command should be used first to import the file
-obj = dc._29_00_00_000_StemCellFactory_26_02_13_stp
+obj = dc._29_00_00_000_StemCellFactory_26_02_13_stp #The step file you are using
 level2 = 1
 obparent = obj
 opfile.write("<ul>")                     #Every new generation of objects should be under individual <ul>
